@@ -110,6 +110,9 @@ Below are the tree hierarchy of the files, which were modified for this project
 
 <img width="960" alt="07_syscallflow" src="https://user-images.githubusercontent.com/5839686/33244068-90a830d0-d2a5-11e7-8193-417fc0b7aa9d.png">
 
+
+# Different Options #
+
 | Request Type | System Command |
 | ------------- | ------------- |
 | MULTIPLICATION TABLE | <img width="1157" alt="08_multiplication_table" src="https://user-images.githubusercontent.com/5839686/33244069-90c4e9aa-d2a5-11e7-96e2-7cfe2c15f7d0.png"> |
