@@ -2,9 +2,13 @@
 
 As part of CSC 502 Principles of OS & Distributed Systems course, I have customized an open source operating system, MINIX 3, to display custom banner on startup and shutdown, add a new system command that can be used on terminal and add a new system call and user library that can be used for calling internal kernel methods.
 
+
 ## Introduction ##
 
 MINIX 3 is a free Open-Source Operating System designed to be highly flexible, secure and reliable. MINIX runs on x86 and ARM CPUs. It is compatible with NetBSD and runs numerous NetBSD packages. It is designed as a tiny microkernel (kernel mode) running with rest of Operating System which is running as numerous isolated and protected processes (user mode). 
+
+<img width="960" alt="00_virtualization" src="https://user-images.githubusercontent.com/5839686/33244061-8fa1facc-d2a5-11e7-8fd9-cf41bc8b946f.png">
+
 
 ## Installation ##
 
@@ -27,8 +31,7 @@ In order to install MINIX 3 Operating System on local machine over a Virtual Mac
 
 Here is how VirtualBox main screen will look like and you can see new Minix3.2.1 VM listed in left panel.
 
-
-
+<img width="379" alt="01_virtualbox" src="https://user-images.githubusercontent.com/5839686/33244062-8fbbe810-d2a5-11e7-9052-b963540d6fd8.png">
 
 Below are the installation steps for MINIX 3 Operating System.
 
@@ -75,25 +78,44 @@ Using ipconfig command at the MINIX command prompt, Guest IP address of VM can b
 
 **ssh -p 2222 root@127.0.0.1**
 
+<img width="1433" alt="02_remote_access" src="https://user-images.githubusercontent.com/5839686/33244063-8fcefd24-d2a5-11e7-8bb0-354b797f9ff0.png">
+
 
 Type the above command in a terminal on host machine or in a ssh/scp client. With this configuration, port forwarding will enable the VM to start listening on port #2222 on the local host (127.0.0.1). If port 2222 is in use, then some other high port number.
 
 **NOTE:** these instructions were executed on Mac OS (Sierra Version 10.12.6) but it should work on Windows OS (Windows 10) machine too.
 
+
 ## Tree Hierarchy ##
 
 Below are the tree hierarchy of the files, which were modified for this project
 
-
+<img width="335" alt="03_tree-hierarchy" src="https://user-images.githubusercontent.com/5839686/33244064-8ff96b72-d2a5-11e7-85c4-36b02ca279f3.png">
 
 
 ## Custom startup and shutdown banner ##
 
+| Request Type | Custom Banner |
+| ------------- | ------------- |
+| Startup | <img width="578" alt="04_startup_banner" src="https://user-images.githubusercontent.com/5839686/33244065-90196828-d2a5-11e7-8c92-0a00a9d2223b.png"> |
+| Shutdown | <img width="579" alt="05_poweroff_banner" src="https://user-images.githubusercontent.com/5839686/33244066-902cd804-d2a5-11e7-8543-e4a5254c88ab.png"> |
+
 
 ## Custom system command ##
 
+<img width="578" alt="06_syscommanddetails" src="https://user-images.githubusercontent.com/5839686/33244067-90405136-d2a5-11e7-9bb3-c6a449f77b11.png">
+
 
 ## Custom system call ##
+
+<img width="960" alt="07_syscallflow" src="https://user-images.githubusercontent.com/5839686/33244068-90a830d0-d2a5-11e7-8193-417fc0b7aa9d.png">
+
+| Request Type | System Command |
+| ------------- | ------------- |
+| MULTIPLICATION TABLE | <img width="1157" alt="08_multiplication_table" src="https://user-images.githubusercontent.com/5839686/33244069-90c4e9aa-d2a5-11e7-96e2-7cfe2c15f7d0.png"> |
+| SQUARE TABLE | <img width="1154" alt="09_square_table" src="https://user-images.githubusercontent.com/5839686/33244070-90d82092-d2a5-11e7-91e4-ca0c48799a3e.png"> |
+| SUMMATION TABLE | <img width="1156" alt="10_summation_table" src="https://user-images.githubusercontent.com/5839686/33244071-90efca30-d2a5-11e7-962e-ad82effd14a8.png"> |
+| CUBIC TABLE | <img width="1155" alt="11_cubic_table" src="https://user-images.githubusercontent.com/5839686/33244072-9103c170-d2a5-11e7-9f76-662035e6e0d9.png"> |
 
 
 ## Build Kernel and Libraries ##
