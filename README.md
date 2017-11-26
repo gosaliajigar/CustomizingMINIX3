@@ -108,10 +108,12 @@ Below are the tree hierarchy of the files, which were modified for this project
 
 ## Custom system call ##
 
+### Flow Diagram ###
+
 <img width="960" alt="07_syscallflow" src="https://user-images.githubusercontent.com/5839686/33244068-90a830d0-d2a5-11e7-8193-417fc0b7aa9d.png">
 
 
-# Different Options #
+### Different Options ###
 
 | Request Type | System Command |
 | ------------- | ------------- |
