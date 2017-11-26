@@ -101,12 +101,12 @@ Below are the tree hierarchy of the files, which were modified for this project
 | Shutdown | <img width="579" alt="05_poweroff_banner" src="https://user-images.githubusercontent.com/5839686/33244066-902cd804-d2a5-11e7-8543-e4a5254c88ab.png"> |
 
 
-## Custom system command ##
+## Custom System Command ##
 
 <img width="578" alt="06_syscommanddetails" src="https://user-images.githubusercontent.com/5839686/33244067-90405136-d2a5-11e7-9bb3-c6a449f77b11.png">
 
 
-## Custom system call ##
+## Custom System Call ##
 
 ### Flow Diagram ###
 
