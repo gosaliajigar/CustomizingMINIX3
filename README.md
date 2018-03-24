@@ -153,6 +153,7 @@ I have taken help from the following websites and links for the installation of 
 -	http://www.minix3.org/
       -	http://wiki.minix3.org/doku.php?id=developersguide:eclipsetutorial 
       -	http://wiki.minix3.org/doku.php?id=releases:3.2.0:developersguide:rebuildingsystem
+-	http://us.informatiweb.net/tutorials/it/6-web/148--eclipse-connect-to-a-remote-file-system.html
 
 
 ## Disclaimer ##
